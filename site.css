@@ -1,3 +1,85 @@
 html {
-	
+	font-size: 14px;	
 }
+body, header, h1, h2, h3, nav, article, ul, li, p, footer, a, div {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+ul {
+	list-style-type: none;
+}
+
+body {
+	background-color: black;
+	font-family:Arial, Helvetica, snas-serif;
+}
+.contain {
+	max-width: 90%;
+	margin: 0 auto;
+	position: relative;
+	background-color: rgb(30, 30, 30);
+	border: 1px solid white;
+	box-shadow: 0 5px 5px black;
+}
+
+p {
+	font-size: 1.2em;
+}
+header {
+	padding: 1em 1em .5em 0;
+	text-align: center;
+	background-color: rgb(10, 10, 10);
+	overflow: auto;
+}
+
+/* site navigation*/
+nav.sitenav {
+	padding: 1% 0% 1% .5%;
+	width: 20%;
+	position: absolute;
+	left: 0;
+}
+nav.sitenav li {
+	font-size: 1.2em;
+}
+nav.sitenav a {
+	margin-bottom: 0.6em;
+	padding: 0.2em;
+	display: block;
+	background-color: rgb(100,100,100);
+	font-weight: bold;
+}
+nav.sitenav a:link {
+	color: rgb(33,1,36);
+	text-decoration: none;
+}
+nav.sitenav a:visited {
+	color: #888;
+}
+nav.sitenav a:hover, nav.sitenavigation a:focus {
+	color: rgb(33,1,36);
+	background-color: white;
+}
+nav.sitenav a:active {
+	position: relative;
+	top: 1px;
+	left: 1px;
+}
+nav.sitenav li:hover {
+	transform: translateX(25px);
+	-ms-transform: translateX(25px);
+	-webkit-transform: translateX(25px);
+	-webkit-transition-duration: .35s;
+	transition-duration: .35s;
+	-webkit-transition-timing-function: ease-in-out;
+	transition-timing-function: ease-in-out;
+}
+article {
+	width: 75%;
+	position: relative;
+	left: 23%;
+	background-color: rgb(80, 80, 80);
+	color: white;
+}
+
