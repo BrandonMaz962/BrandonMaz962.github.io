@@ -16,7 +16,7 @@ body {
 }
 .contain {
 	max-width: 90%;
-	margin: 0 auto;
+	margin: 10px auto 10px auto;
 	position: relative;
 	background-color: rgb(30, 30, 30);
 	border: 1px solid white;
@@ -29,8 +29,9 @@ p {
 header {
 	padding: 1em 1em .5em 0;
 	text-align: center;
-	background-color: rgb(10, 10, 10);
+	background-color: rgb(10,10,10);
 	overflow: auto;
+	border-bottom: 1px solid white;
 }
 
 /* site navigation*/
@@ -47,7 +48,7 @@ nav.sitenav a {
 	margin-bottom: 0.6em;
 	padding: 0.2em;
 	display: block;
-	background-color: rgb(100,100,100);
+	background-color: rgb(90,90,90);
 	font-weight: bold;
 }
 nav.sitenav a:link {
@@ -81,5 +82,23 @@ article {
 	left: 23%;
 	background-color: rgb(80, 80, 80);
 	color: white;
+	border-left: 1.5px solid white;
 }
-
+article h2 {
+	font-size: 2em;
+	padding: 3px 0 10px 3px;
+	text-decoration: underline;
+}
+article h3 {
+	font-size: 1.5em;
+	padding: 3px 0 5px 3px;
+}
+article p {
+	padding: 3px 5px 8px 5px;
+}
+footer {
+	background-color: rgb(10,10,10);
+	color: white;
+	text-align: right;
+	border-top: 1px solid white;
+}
