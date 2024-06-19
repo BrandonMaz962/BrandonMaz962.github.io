@@ -1,7 +1,7 @@
 html {
 	font-size: 14px;	
 }
-body, header, h1, h2, h3, nav, article, ul, li, p, footer, a, div {
+body, header, h1, h2, h3, nav, article, ul, li, p, footer, a, div, figure {
 	border: 0;
 	padding: 0;
 	margin: 0;
@@ -32,6 +32,10 @@ header {
 	background-color: rgb(10,10,10);
 	overflow: auto;
 	border-bottom: 1px solid white;
+}
+
+figure {
+	padding: .2em 0 1em .2em;
 }
 
 /* site navigation*/
