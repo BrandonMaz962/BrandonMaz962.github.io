@@ -1,6 +1,38 @@
 html {
 	font-size: 14px;	
 }
+@font-face {
+    font-family: 'Karmatic Arcade';
+    src: url('assets/fonts/ka1.eot');
+    src: url('assets/fonts/ka1.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/ka1.woff2') format('woff2'),
+         url('assets/fonts/ka1.woff') format('woff'),
+         url('assets/fonts/ka1.ttf')  format('truetype'),
+         url('assets/fonts/ka1.svg#Karmatic Arcade') format('svg');
+}
+.goldman-regular {
+  font-family: "Goldman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.goldman-bold {
+  font-family: "Goldman", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.anta-regular {
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.orbitron-regular {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body, header, h1, h2, h3, nav, article, ul, li, p, footer, a, div, figure {
 	border: 0;
 	padding: 0;
@@ -9,10 +41,10 @@ body, header, h1, h2, h3, nav, article, ul, li, p, footer, a, div, figure {
 ul {
 	list-style-type: none;
 }
-
 body {
 	background-color: black;
-	font-family:Arial, Helvetica, snas-serif;
+	font-family: "Goldman",Arial, Helvetica, sans-serif;
+	font-size: 16px;
 }
 .contain {
 	max-width: 90%;
@@ -33,6 +65,8 @@ header {
 	overflow: auto;
 	border-bottom: 1px solid white;
 	color: white;
+	font-size: 24px;
+	font-family: 'Karmatic Arcade', Arial, Helvetica, sans-serif;
 }
 
 figure {
@@ -124,12 +158,27 @@ article a:active {
 	top: 1px;
 	left: 1px;
 }
+footer a:link {
+	color: white;
+}
+footer a:visited {
+	color: white
+}
+footer a:hover, footer a:focus {
+	color: lightgrey;
+}
+footer a:active {
+	position: relative;
+	top: 1px;
+	left: 1px;
+}
 footer {
 	background-color: rgb(10,10,10);
 	color: white;
 	text-align: right;
 	border-top: 1px solid white;
 	padding: 3px 3px 0 0;
+	font-size: 14px;
 }
 footer div.media {
 	display: flex;

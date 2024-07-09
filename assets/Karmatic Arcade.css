@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Karmatic Arcade';
+    src: url('fonts/ka1.eot');
+    src: url('fonts/ka1.eot?#iefix') format('embedded-opentype'),
+         url('fonts/ka1.woff2') format('woff2'),
+         url('fonts/ka1.woff') format('woff'),
+         url('fonts/ka1.ttf')  format('truetype'),
+         url('fonts/ka1.svg#Karmatic Arcade') format('svg');
+}
