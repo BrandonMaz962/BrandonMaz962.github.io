@@ -129,4 +129,16 @@ footer {
 	color: white;
 	text-align: right;
 	border-top: 1px solid white;
+	padding: 3px 3px 0 0;
+}
+footer div.media {
+	display: flex;
+	justify-content: right;
+}
+footer div.media figure.github_logo {
+	margin: 0;
+	padding: 0;
+}
+footer div.media figure.linkedin-logo {
+	padding: 17px 15px 0 5px;
 }
