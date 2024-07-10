@@ -1,6 +1,7 @@
 html {
 	font-size: 14px;	
 }
+
 @font-face {
     font-family: 'Karmatic Arcade';
     src: url('assets/fonts/ka1.eot');
@@ -10,6 +11,7 @@ html {
          url('assets/fonts/ka1.ttf')  format('truetype'),
          url('assets/fonts/ka1.svg#Karmatic Arcade') format('svg');
 }
+
 .goldman-regular {
   font-family: "Goldman", sans-serif;
   font-weight: 400;
@@ -21,11 +23,13 @@ html {
   font-weight: 700;
   font-style: normal;
 }
+
 .anta-regular {
   font-family: "Anta", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
+
 .orbitron-regular {
   font-family: "Orbitron", sans-serif;
   font-optical-sizing: auto;
@@ -38,14 +42,17 @@ body, header, h1, h2, h3, nav, article, ul, li, p, footer, a, div, figure {
 	padding: 0;
 	margin: 0;
 }
+
 ul {
 	list-style-type: none;
 }
+
 body {
 	background-color: black;
 	font-family: "Goldman",Arial, Helvetica, sans-serif;
 	font-size: 16px;
 }
+
 .contain {
 	max-width: 90%;
 	margin: 10px auto 10px auto;
@@ -58,6 +65,7 @@ body {
 p {
 	font-size: 1.2em;
 }
+
 header {
 	padding: 1em 1em .5em 0;
 	text-align: center;
@@ -67,6 +75,27 @@ header {
 	color: white;
 	font-size: 24px;
 	font-family: 'Karmatic Arcade', Arial, Helvetica, sans-serif;
+	display: flex;	
+}
+
+header.text {
+	float: center;
+}
+
+header img.left {
+	float: left;
+	margin: 0;
+	padding-left: 1em;
+	padding-right: 6em;
+	padding-bottom: .5em;
+}
+
+header img.right {
+	float: right;
+	margin: 0;
+	padding-right: 0;
+	padding-left: 5em;
+	padding-bottom: .5em;
 }
 
 figure {
