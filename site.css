@@ -98,6 +98,22 @@ header img.right {
 	padding-bottom: .5em;
 }
 
+#comp {
+	padding-right: 7.5em;
+}
+
+#code {
+	padding-left: 6.5em;
+}
+
+#gvsu {
+	padding-right: 9.7em;
+}
+
+#prog {
+	padding-left: 9em;
+}
+
 figure {
 	padding: .2em 0 1em .2em;
 }
